@@ -1,0 +1,79 @@
+tBodyAccmeanX,Mean time-domain body acceleration in the x direction from the accelerometer
+tBodyAccmeanY ,Mean time-domain body acceleration in the y direction from the accelerometer
+tBodyAccmeanZ ,Mean time-domain body acceleration in the z direction from the accelerometer
+tBodyAccstdX ,Standard deviation time-domain body acceleration in the x direction
+tBodyAccstdY ,Standard deviation time-domain body acceleration in the y direction
+tBodyAccstdZ ,Standard deviation time-domain body acceleration in the z direction
+tGravityAccmeanX ,Mean time-domain gravity acceleration in the x direction from the accelerometer
+tGravityAccmeanY ,Mean time-domain gravity acceleration in the y direction from the accelerometer
+tGravityAccmeanZ ,Mean time-domain gravity acceleration in the z direction from the accelerometer
+tGravityAccstdX ,Standard deviation time-domain gravity acceleration in the x direction from the accelerometer
+tGravityAccstdY ,Standard deviation time-domain gravity acceleration in the y direction from the accelerometer
+tGravityAccstdZ ,Standard deviation time-domain gravity acceleration in the z direction from the accelerometer
+tBodyAccJerkmeanX ,Mean time-domain body jerk in the x direction from the accelerometer
+tBodyAccJerkmeanY ,Mean time-domain body jerk in the y direction from the accelerometer
+tBodyAccJerkmeanZ ,Mean time-domain body jerk in the z direction from the accelerometer
+tBodyAccJerkstdX ,Standard deviation time-domain body jerk in the x direction from the accelerometer
+tBodyAccJerkstdY ,Standard deviation time-domain body jerk in the y direction from the accelerometer
+tBodyAccJerkstdZ ,Standard deviation time-domain body jerk in the z direction from the accelerometer
+tBodyGyromeanX ,Mean time-domain body acceleration in the x direction from the gyroscope
+tBodyGyromeanY ,Mean time-domain body acceleration in the y direction from the gyroscope
+tBodyGyromeanZ ,Mean time-domain body acceleration in the z direction from the gyroscope
+tBodyGyrostdX ,Standard deviation time-domain body acceleration in the x direction from the gyroscope
+tBodyGyrostdY ,Standard deviation time-domain body acceleration in the y direction from the gyroscope
+tBodyGyrostdZ ,Standard deviation time-domain body acceleration in the z direction from the gyroscope
+tBodyGyroJerkmeanX ,Mean time-domain body jerk in the x direction from the gyroscope
+tBodyGyroJerkmeanY ,Mean time-domain body jerk in the y direction from the gyroscope
+tBodyGyroJerkmeanZ ,Mean time-domain body jerk in the z direction from the gyroscope
+tBodyGyroJerkstdX ,Standard deviation time-domain body jerk in the x direction from the gyroscope
+tBodyGyroJerkstdY ,Standard deviation time-domain body jerk in the y direction from the gyroscope
+tBodyGyroJerkstdZ ,Standard deviation time-domain body jerk in the z direction from the gyroscope
+tBodyAccMagmean ,Mean Euclidean norm time-domain body acceleration from the accelerometer
+tBodyAccMagstd ,Standard Deviation Euclidean norm time-domain body acceleration from the accelerometer
+tGravityAccMagmean ,Mean Euclidean norm time-domain gravity acceleration from the accelerometer
+tGravityAccMagstd ,Standard Deviation Euclidean norm time-domain gravity acceleration from the accelerometer
+tBodyAccJerkMagmean ,Mean Euclidean norm time-domain body jerk from the accelerometer
+tBodyAccJerkMagstd ,Standard Deviation Euclidean norm time-domain body jerk from the accelerometer
+tBodyGyroMagmean ,Mean Euclidean norm time-domain body acceleration from the gyroscope
+tBodyGyroMagstd ,Standard Deviation Euclidean norm time-domain gravity acceleration from the gyroscope
+tBodyGyroJerkMagmean ,Mean Euclidean norm time-domain body jerk from the gyroscope
+tBodyGyroJerkMagstd ,Standard Deviation Euclidean norm time-domain body jerk from the gyroscope
+fBodyAccmeanX ,Mean frequency-domain body acceleration in the x direction from the accelerometer
+fBodyAccmeanY ,Mean frequency-domain body acceleration in the y direction from the accelerometer
+fBodyAccmeanZ ,Mean frequency-domain body acceleration in the z direction from the accelerometer
+fBodyAccstdX ,Standard Deviation frequency-domain body acceleration in the x direction from the accelerometer
+fBodyAccstdY ,Standard Deviation frequency-domain body acceleration in the y direction from the accelerometer
+fBodyAccstdZ ,Standard Deviation frequency-domain body acceleration in the z direction from the accelerometer
+fBodyAccmeanFreqX ,Mean frequency of body acceleration in the x direction from the accelerometer
+fBodyAccmeanFreqY ,Mean frequency of body acceleration in the y direction from the accelerometer
+fBodyAccmeanFreqZ ,Mean frequency of body acceleration in the z direction from the accelerometer
+fBodyAccJerkmeanX ,Mean frequency-domain body jerk in the x direction from the accelerometer
+fBodyAccJerkmeanY ,Mean frequency-domain body jerk in the y direction from the accelerometer
+fBodyAccJerkmeanZ ,Mean frequency-domain body jerk in the z direction from the accelerometer
+fBodyAccJerkstdX ,Standard Deviation frequency-domain body jerk in the x direction from the accelerometer
+fBodyAccJerkstdY ,Standard Deviation frequency-domain body jerk in the y direction from the accelerometer
+fBodyAccJerkstdZ ,Standard Deviation frequency-domain body jerk in the z direction from the accelerometer
+fBodyAccJerkmeanFreqX ,Mean frequency of body jerk in the x direction from the accelerometer
+fBodyAccJerkmeanFreqY ,Mean frequency of body jerk in the y direction from the accelerometer
+fBodyAccJerkmeanFreqZ ,Mean frequency of body jerk in the z direction from the accelerometer
+fBodyGyromeanX ,Mean frequency-domain body acceleration in the x direction from the gyroscope
+fBodyGyromeanY ,Mean frequency-domain body acceleration in the y direction from the gyroscope
+fBodyGyromeanZ ,Mean frequency-domain body acceleration in the z direction from the gyroscope
+fBodyGyrostdX ,Standard Deviation frequency-domain body acceleration in the x direction from the gyroscope
+fBodyGyrostdY ,Standard Deviation frequency-domain body acceleration in the y direction from the gyroscope
+fBodyGyrostdZ ,Standard Deviation frequency-domain body acceleration in the z direction from the gyroscope
+fBodyGyromeanFreqX ,Mean frequency-domain body jerk in the x direction from the gyroscope
+fBodyGyromeanFreqY ,Mean frequency-domain body jerk in the y direction from the gyroscope
+fBodyGyromeanFreqZ ,Mean frequency-domain body jerk in the z direction from the gyroscope
+fBodyAccMagmean ,Mean Euclidean norm frequency-domain body acceleration from the accelerometer
+fBodyAccMagstd ,Standard Deviation Euclidean norm frequency-domain body acceleration from the accelerometer
+fBodyAccMagmeanFreq ,Mean Euclidean norm frequency of gravity acceleration from the accelerometer
+fBodyBodyAccJerkMagmean ,Mean Euclidean norm frequency-domain body jerk from the accelerometer
+fBodyBodyAccJerkMagstd ,Standard Deviation Euclidean norm frequency-domain body jerk from the accelerometer
+fBodyBodyAccJerkMagmeanFreq ,Mean Euclidean norm frequency of body jerk from the accelerometer
+fBodyBodyGyroMagmean ,Mean Euclidean norm frequency-domain body acceleration from the gyroscope
+fBodyBodyGyroMagstd ,Standard Deviation Euclidean norm frequency-domain body acceleration from the gyroscope
+fBodyBodyGyroMagmeanFreq ,Mean Euclidean norm frequency of gravity acceleration from the gyroscope
+fBodyBodyGyroJerkMagmean ,Mean Euclidean norm frequency-domain body jerk from the gyroscope
+fBodyBodyGyroJerkMagstd ,Standard Deviation Euclidean norm frequency-domain body jerk from the gyroscope
+fBodyBodyGyroJerkMagmeanFreq,Mean Euclidean norm frequency of body jerk from the gyroscope
