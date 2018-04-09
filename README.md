@@ -8,9 +8,9 @@ where the data was [obtained](http://archive.ics.uci.edu/ml/datasets/Human+Activ
 The file run_analysis.R contains all of the analysis code. The steps invloved were:
 
 ### Merges the training and the test sets to create one data set.
-I have combined the two data sets (test and training), including both the data files (X_test.txt and X_train.txt)
-and the labels (y_test.txt and y_train.txt). This was done by using cbind 
-to join the data and labels for each set (test and train), then using rbind to join the test and train sets into a single
+I have combined the two data sets (test and training), including both the data files (X_test.txt and X_train.txt), the labels
+(y_test.txt and y_train.txt) and the subjects (subject_test.txt and subject_train.txt). This was done by using cbind 
+to join the data, labels and subjects for each set (test and train), then using rbind to join the test and train sets into a single
 merged dataframe.
 
 ### Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -27,4 +27,5 @@ Activity names were taken from the file features.txt. The included code book giv
 each variable means.
 
 ### From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-The tidy data set was created by using aggregate to take the mean of each variable for each of the six activity types.
+The tidy data set was created by using aggregate to take the mean of each variable for each of the six activity types and each
+subject.
