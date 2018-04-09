@@ -1,3 +1,24 @@
+The file run_analysis.R contains all of the analysis code. The steps invloved were:
+
+I have combined the two data sets (test and training), including both the data files (X_test.txt and X_train.txt), the labels
+(y_test.txt and y_train.txt) and the subjects (subject_test.txt and subject_train.txt). This was done by using cbind 
+to join the data, labels and subjects for each set (test and train), then using rbind to join the test and train sets into a single
+merged dataframe.
+
+All column names containing the substrings 'mean' or 'std' were subsetted out using grepl. The intent is that the 'mean' coulmns
+contain the mean for each measurement and the 'std' columns contain the standard deviation for each measurement..
+
+The activities in this merged data set were given descriptive activity names based on the activity_labels.txt file. This file
+was read into a second dataframe, which was then combined with the merged data above, merging on the activity number.
+
+Activity names were taken from the file features.txt. A more detailed description of what
+each variable means is included below.
+
+The tidy data set was created by using aggregate to take the mean of each variable for each of the six activity types and each
+subject.
+
+The variable name details are as follows:
+
 tBodyAccmeanX,Mean time-domain body acceleration in the x direction from the accelerometer
 tBodyAccmeanY ,Mean time-domain body acceleration in the y direction from the accelerometer
 tBodyAccmeanZ ,Mean time-domain body acceleration in the z direction from the accelerometer
